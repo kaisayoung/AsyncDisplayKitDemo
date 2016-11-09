@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TraditionalViewController">
+            <connections>
+                <outlet property="bottomView" destination="CVj-u1-VsS" id="2Tg-kZ-NIU"/>
+                <outlet property="containerView" destination="UMW-1Y-XMC" id="zCY-PN-GDE"/>
+                <outlet property="detailLabel" destination="9p0-WE-9gW" id="udd-CY-Puo"/>
+                <outlet property="imageView" destination="Z3d-H0-l7U" id="tH8-pg-Tdb"/>
+                <outlet property="titleLabel" destination="gfc-Hg-u1e" id="hbv-P6-XyQ"/>
+                <outlet property="topView" destination="E1Q-y2-arL" id="xec-yR-jD1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1Q-y2-arL">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMW-1Y-XMC">
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TajMahal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Z3d-H0-l7U"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taj Mahal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfc-Hg-u1e">
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Z3d-H0-l7U" secondAttribute="trailing" id="1xt-PD-jJJ"/>
+                                <constraint firstItem="Z3d-H0-l7U" firstAttribute="leading" secondItem="UMW-1Y-XMC" secondAttribute="leading" id="91f-fR-UaP"/>
+                                <constraint firstAttribute="bottom" secondItem="gfc-Hg-u1e" secondAttribute="bottom" constant="8.5" id="M1g-lN-87h"/>
+                                <constraint firstAttribute="bottom" secondItem="Z3d-H0-l7U" secondAttribute="bottom" id="Tee-M7-WhJ"/>
+                                <constraint firstItem="Z3d-H0-l7U" firstAttribute="top" secondItem="UMW-1Y-XMC" secondAttribute="top" id="nPA-Vt-ROq"/>
+                                <constraint firstAttribute="height" constant="263.5" id="oDG-Df-hFW"/>
+                                <constraint firstAttribute="width" constant="320" id="qcG-s5-joo"/>
+                                <constraint firstItem="gfc-Hg-u1e" firstAttribute="leading" secondItem="UMW-1Y-XMC" secondAttribute="leading" constant="8" id="v11-tM-4bm"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="UMW-1Y-XMC" firstAttribute="centerX" secondItem="E1Q-y2-arL" secondAttribute="centerX" id="Tfp-ue-Obk"/>
+                        <constraint firstItem="UMW-1Y-XMC" firstAttribute="centerY" secondItem="E1Q-y2-arL" secondAttribute="centerY" id="nm3-Cd-haN"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVj-u1-VsS">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9p0-WE-9gW">
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <mutableString key="text">泰姬陵（Taj Mahal ），是印度知名度最高的古迹之一，世界文化遗产，被评选为“世界新七大奇迹”。
+泰姬陵全称为“泰姬·玛哈尔陵”，是一座白色大理石建成的巨大陵墓清真寺，是莫卧儿皇帝沙贾汗为纪念他心爱的妃子于1631年至1653年在阿格拉而建的。位于今印度距新德里200多公里外的北方邦的阿格拉(Agra)城内，亚穆纳河右侧。由殿堂、钟楼、尖塔、水池等构成，全部用纯白色大理石建筑，用玻璃、玛瑙镶嵌，具有极高的艺术价值。
+泰姬陵是印度穆斯林艺术最完美的瑰宝，是世界遗产中的经典杰作之一，被誉为“完美建筑”，又有“印度明珠”的美誉。</mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9p0-WE-9gW" secondAttribute="trailing" constant="15" id="2FE-qV-OrB"/>
+                        <constraint firstItem="9p0-WE-9gW" firstAttribute="leading" secondItem="CVj-u1-VsS" secondAttribute="leading" constant="15" id="HVg-8j-cIg"/>
+                        <constraint firstAttribute="height" constant="320" id="Ybz-UK-vkH"/>
+                        <constraint firstItem="9p0-WE-9gW" firstAttribute="centerY" secondItem="CVj-u1-VsS" secondAttribute="centerY" id="ggV-or-gkf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CVj-u1-VsS" secondAttribute="trailing" id="Nvh-8k-lR1"/>
+                <constraint firstItem="CVj-u1-VsS" firstAttribute="top" secondItem="E1Q-y2-arL" secondAttribute="bottom" id="RD4-cv-5oq"/>
+                <constraint firstItem="E1Q-y2-arL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Y5D-w0-wa8"/>
+                <constraint firstItem="E1Q-y2-arL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hdU-CJ-csn"/>
+                <constraint firstAttribute="trailing" secondItem="E1Q-y2-arL" secondAttribute="trailing" id="im2-pV-wWp"/>
+                <constraint firstItem="CVj-u1-VsS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sxR-7X-ywU"/>
+                <constraint firstAttribute="bottom" secondItem="CVj-u1-VsS" secondAttribute="bottom" id="t0F-5h-39A"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-818" y="5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="TajMahal.jpg" width="320" height="263"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

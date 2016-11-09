@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TraditionalViewController.h"
+#import "SmoothViewController.h"
 
 @interface ViewController ()
 
@@ -25,5 +27,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)pushToDestVC:(UIViewController *)destVC {
+    [self.navigationController pushViewController:destVC animated:YES];
+}
+
+- (IBAction)onGotoVCButtonTapped:(id)sender {
+    BOOL chooseValue = NO;
+    if (chooseValue) {
+        TraditionalViewController *traditionVC = [[TraditionalViewController alloc] initWithNibName:@"TraditionalViewController" bundle:nil];
+        [self pushToDestVC:traditionVC];
+    }
+    else {
+        SmoothViewController *smoothVC = [[SmoothViewController alloc] initWithNibName:@"SmoothViewController" bundle:nil];
+        [self pushToDestVC:smoothVC];
+    }
+}
 
 @end

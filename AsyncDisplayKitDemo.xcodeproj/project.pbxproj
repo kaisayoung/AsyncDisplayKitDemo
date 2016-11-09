@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22F33CAC8F27381C948E731B /* libPods-AsyncDisplayKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3A0F0AF41E65954EC82CC /* libPods-AsyncDisplayKitDemo.a */; };
 		23D33E381DCC685D003AAB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E371DCC685D003AAB6A /* main.m */; };
 		23D33E3B1DCC685D003AAB6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E3A1DCC685D003AAB6A /* AppDelegate.m */; };
 		23D33E3E1DCC685D003AAB6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E3D1DCC685D003AAB6A /* ViewController.m */; };
 		23D33E411DCC685D003AAB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E3F1DCC685D003AAB6A /* Main.storyboard */; };
 		23D33E431DCC685D003AAB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E421DCC685D003AAB6A /* Assets.xcassets */; };
 		23D33E461DCC685D003AAB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E441DCC685D003AAB6A /* LaunchScreen.storyboard */; };
+		23D33E5D1DD2BAF2003AAB6A /* TraditionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E5B1DD2BAF2003AAB6A /* TraditionalViewController.m */; };
+		23D33E5E1DD2BAF2003AAB6A /* TraditionalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E5C1DD2BAF2003AAB6A /* TraditionalViewController.xib */; };
+		23D33E661DD2BFBF003AAB6A /* FamousScenery.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E631DD2BFBF003AAB6A /* FamousScenery.plist */; };
+		23D33E6C1DD2CC00003AAB6A /* SmoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E6A1DD2CC00003AAB6A /* SmoothViewController.m */; };
+		23D33E6D1DD2CC00003AAB6A /* SmoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E6B1DD2CC00003AAB6A /* SmoothViewController.xib */; };
+		23D33E701DD2CF40003AAB6A /* TajMahal@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E6E1DD2CF40003AAB6A /* TajMahal@2x.jpg */; };
+		23D33E711DD2CF40003AAB6A /* TajMahal@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E6F1DD2CF40003AAB6A /* TajMahal@3x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,18 @@
 		23D33E421DCC685D003AAB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23D33E451DCC685D003AAB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23D33E471DCC685D003AAB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D33E5A1DD2BAF2003AAB6A /* TraditionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalViewController.h; sourceTree = "<group>"; };
+		23D33E5B1DD2BAF2003AAB6A /* TraditionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalViewController.m; sourceTree = "<group>"; };
+		23D33E5C1DD2BAF2003AAB6A /* TraditionalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraditionalViewController.xib; sourceTree = "<group>"; };
+		23D33E631DD2BFBF003AAB6A /* FamousScenery.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FamousScenery.plist; sourceTree = "<group>"; };
+		23D33E691DD2CC00003AAB6A /* SmoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothViewController.h; sourceTree = "<group>"; };
+		23D33E6A1DD2CC00003AAB6A /* SmoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothViewController.m; sourceTree = "<group>"; };
+		23D33E6B1DD2CC00003AAB6A /* SmoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmoothViewController.xib; sourceTree = "<group>"; };
+		23D33E6E1DD2CF40003AAB6A /* TajMahal@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TajMahal@2x.jpg"; sourceTree = "<group>"; };
+		23D33E6F1DD2CF40003AAB6A /* TajMahal@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TajMahal@3x.jpg"; sourceTree = "<group>"; };
+		8BF1948B71AB8AD019190670 /* Pods-AsyncDisplayKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKitDemo/Pods-AsyncDisplayKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE3A0F0AF41E65954EC82CC /* libPods-AsyncDisplayKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsyncDisplayKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7B985A4BFDC9A2AD52B83F /* Pods-AsyncDisplayKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKitDemo/Pods-AsyncDisplayKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F33CAC8F27381C948E731B /* libPods-AsyncDisplayKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C9638EAA9DD7F53D41D32AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BF1948B71AB8AD019190670 /* Pods-AsyncDisplayKitDemo.debug.xcconfig */,
+				EA7B985A4BFDC9A2AD52B83F /* Pods-AsyncDisplayKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		23D33E2A1DCC685D003AAB6A = {
 			isa = PBXGroup;
 			children = (
 				23D33E351DCC685D003AAB6A /* AsyncDisplayKitDemo */,
 				23D33E341DCC685D003AAB6A /* Products */,
+				0C9638EAA9DD7F53D41D32AB /* Pods */,
+				C3E04079F4199C73E828C936 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +98,10 @@
 				23D33E421DCC685D003AAB6A /* Assets.xcassets */,
 				23D33E441DCC685D003AAB6A /* LaunchScreen.storyboard */,
 				23D33E471DCC685D003AAB6A /* Info.plist */,
+				23D33E621DD2BFBF003AAB6A /* Resource */,
+				23D33E551DD16A96003AAB6A /* NormalView */,
+				23D33E4D1DD017A3003AAB6A /* TableView */,
+				23D33E4E1DD017A3003AAB6A /* CollectionView */,
 				23D33E361DCC685D003AAB6A /* Supporting Files */,
 			);
 			path = AsyncDisplayKitDemo;
@@ -79,6 +115,115 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		23D33E4D1DD017A3003AAB6A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				23D33E511DD08D8B003AAB6A /* Traditional */,
+				23D33E4F1DD08D8B003AAB6A /* Smooth */,
+				23D33E501DD08D8B003AAB6A /* Extreme */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		23D33E4E1DD017A3003AAB6A /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				23D33E541DD08D98003AAB6A /* Traditional */,
+				23D33E521DD08D98003AAB6A /* Smooth */,
+				23D33E531DD08D98003AAB6A /* Extreme */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		23D33E4F1DD08D8B003AAB6A /* Smooth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Smooth;
+			sourceTree = "<group>";
+		};
+		23D33E501DD08D8B003AAB6A /* Extreme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extreme;
+			sourceTree = "<group>";
+		};
+		23D33E511DD08D8B003AAB6A /* Traditional */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Traditional;
+			sourceTree = "<group>";
+		};
+		23D33E521DD08D98003AAB6A /* Smooth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Smooth;
+			sourceTree = "<group>";
+		};
+		23D33E531DD08D98003AAB6A /* Extreme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extreme;
+			sourceTree = "<group>";
+		};
+		23D33E541DD08D98003AAB6A /* Traditional */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Traditional;
+			sourceTree = "<group>";
+		};
+		23D33E551DD16A96003AAB6A /* NormalView */ = {
+			isa = PBXGroup;
+			children = (
+				23D33E591DD2BA84003AAB6A /* Traditional */,
+				23D33E581DD2BA84003AAB6A /* Smooth */,
+			);
+			path = NormalView;
+			sourceTree = "<group>";
+		};
+		23D33E581DD2BA84003AAB6A /* Smooth */ = {
+			isa = PBXGroup;
+			children = (
+				23D33E691DD2CC00003AAB6A /* SmoothViewController.h */,
+				23D33E6A1DD2CC00003AAB6A /* SmoothViewController.m */,
+				23D33E6B1DD2CC00003AAB6A /* SmoothViewController.xib */,
+			);
+			path = Smooth;
+			sourceTree = "<group>";
+		};
+		23D33E591DD2BA84003AAB6A /* Traditional */ = {
+			isa = PBXGroup;
+			children = (
+				23D33E5A1DD2BAF2003AAB6A /* TraditionalViewController.h */,
+				23D33E5B1DD2BAF2003AAB6A /* TraditionalViewController.m */,
+				23D33E5C1DD2BAF2003AAB6A /* TraditionalViewController.xib */,
+			);
+			path = Traditional;
+			sourceTree = "<group>";
+		};
+		23D33E621DD2BFBF003AAB6A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				23D33E6E1DD2CF40003AAB6A /* TajMahal@2x.jpg */,
+				23D33E6F1DD2CF40003AAB6A /* TajMahal@3x.jpg */,
+				23D33E631DD2BFBF003AAB6A /* FamousScenery.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C3E04079F4199C73E828C936 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACE3A0F0AF41E65954EC82CC /* libPods-AsyncDisplayKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23D33E4A1DCC685D003AAB6A /* Build configuration list for PBXNativeTarget "AsyncDisplayKitDemo" */;
 			buildPhases = (
+				C7A8FC38172D6F7331D7D4B5 /* [CP] Check Pods Manifest.lock */,
 				23D33E2F1DCC685D003AAB6A /* Sources */,
 				23D33E301DCC685D003AAB6A /* Frameworks */,
 				23D33E311DCC685D003AAB6A /* Resources */,
+				9BC864C559A579C7A8F2B2B4 /* [CP] Embed Pods Frameworks */,
+				1668E298AEB79C1E3BF36DD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,6 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				23D33E461DCC685D003AAB6A /* LaunchScreen.storyboard in Resources */,
+				23D33E701DD2CF40003AAB6A /* TajMahal@2x.jpg in Resources */,
+				23D33E6D1DD2CC00003AAB6A /* SmoothViewController.xib in Resources */,
+				23D33E711DD2CF40003AAB6A /* TajMahal@3x.jpg in Resources */,
+				23D33E5E1DD2BAF2003AAB6A /* TraditionalViewController.xib in Resources */,
+				23D33E661DD2BFBF003AAB6A /* FamousScenery.plist in Resources */,
 				23D33E431DCC685D003AAB6A /* Assets.xcassets in Resources */,
 				23D33E411DCC685D003AAB6A /* Main.storyboard in Resources */,
 			);
@@ -146,14 +299,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1668E298AEB79C1E3BF36DD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncDisplayKitDemo/Pods-AsyncDisplayKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC864C559A579C7A8F2B2B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncDisplayKitDemo/Pods-AsyncDisplayKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A8FC38172D6F7331D7D4B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23D33E2F1DCC685D003AAB6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D33E5D1DD2BAF2003AAB6A /* TraditionalViewController.m in Sources */,
 				23D33E3E1DCC685D003AAB6A /* ViewController.m in Sources */,
 				23D33E3B1DCC685D003AAB6A /* AppDelegate.m in Sources */,
 				23D33E381DCC685D003AAB6A /* main.m in Sources */,
+				23D33E6C1DD2CC00003AAB6A /* SmoothViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +472,12 @@
 		};
 		23D33E4B1DCC685D003AAB6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF1948B71AB8AD019190670 /* Pods-AsyncDisplayKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TJYZQHCUUL;
 				INFOPLIST_FILE = AsyncDisplayKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taoshijie.AsyncDisplayKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +486,12 @@
 		};
 		23D33E4C1DCC685D003AAB6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7B985A4BFDC9A2AD52B83F /* Pods-AsyncDisplayKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TJYZQHCUUL;
 				INFOPLIST_FILE = AsyncDisplayKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taoshijie.AsyncDisplayKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +517,7 @@
 				23D33E4C1DCC685D003AAB6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
