@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TraditionalCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="134"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="134"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TajMahal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HlO-lD-snG"/>
+                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="eb6-8H-mai"/>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7x-XC-Iex">
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UfN-Ih-RPF">
+                            <frame key="frameInset"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我就是看看" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOR-0c-ptv">
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="kOR-0c-ptv" firstAttribute="top" secondItem="UfN-Ih-RPF" secondAttribute="top" id="GLU-1b-KFO"/>
+                                <constraint firstAttribute="bottom" secondItem="kOR-0c-ptv" secondAttribute="bottom" id="Kkv-Kn-Y29"/>
+                                <constraint firstAttribute="trailing" secondItem="kOR-0c-ptv" secondAttribute="trailing" id="Q3B-At-GM5"/>
+                                <constraint firstItem="kOR-0c-ptv" firstAttribute="leading" secondItem="UfN-Ih-RPF" secondAttribute="leading" id="afd-RT-006"/>
+                            </constraints>
+                        </view>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="FPt-qV-Wbl"/>
+                        </constraints>
+                        <blurEffect style="light"/>
+                    </visualEffectView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="c7x-XC-Iex" secondAttribute="bottom" id="0Ff-hA-MLl"/>
+                <constraint firstItem="HlO-lD-snG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Krn-x0-Meb"/>
+                <constraint firstItem="HlO-lD-snG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Syw-uX-fKY"/>
+                <constraint firstItem="eb6-8H-mai" firstAttribute="centerX" secondItem="HlO-lD-snG" secondAttribute="centerX" id="VA6-kk-W98"/>
+                <constraint firstItem="eb6-8H-mai" firstAttribute="centerY" secondItem="HlO-lD-snG" secondAttribute="centerY" id="dV3-fx-5zp"/>
+                <constraint firstAttribute="bottom" secondItem="HlO-lD-snG" secondAttribute="bottom" id="e5P-Vt-1lb"/>
+                <constraint firstAttribute="trailing" secondItem="c7x-XC-Iex" secondAttribute="trailing" id="s9e-Fs-1SC"/>
+                <constraint firstItem="c7x-XC-Iex" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="y3N-sw-CoY"/>
+                <constraint firstAttribute="trailing" secondItem="HlO-lD-snG" secondAttribute="trailing" id="ysW-8w-Ybe"/>
+            </constraints>
+            <connections>
+                <outlet property="activityIndicator" destination="eb6-8H-mai" id="09Y-wx-ns0"/>
+                <outlet property="blurView" destination="c7x-XC-Iex" id="Hjz-6M-www"/>
+                <outlet property="nameLabel" destination="kOR-0c-ptv" id="R7y-JT-MlY"/>
+                <outlet property="sceneryImageView" destination="HlO-lD-snG" id="3Ta-Id-6nj"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="TajMahal.jpg" width="320" height="263"/>
+    </resources>
+</document>

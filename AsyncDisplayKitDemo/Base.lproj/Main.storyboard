@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ODA-8f-lBe">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,20 +18,112 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iG8-wC-6qP">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Dpr-6c-WRO"/>
                                     <constraint firstAttribute="width" constant="200" id="GkT-26-UPY"/>
                                 </constraints>
-                                <state key="normal" title="goto VC"/>
+                                <state key="normal" title="goto traditional VC"/>
                                 <connections>
-                                    <action selector="onGotoVCButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h7s-63-II8"/>
+                                    <action selector="onGotoControllerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bCK-a3-pL2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQC-6J-SiV">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ErK-Ke-65x"/>
+                                    <constraint firstAttribute="height" constant="30" id="bWb-4k-X3j"/>
+                                </constraints>
+                                <state key="normal" title="goto smooth VC"/>
+                                <connections>
+                                    <action selector="onGotoControllerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="695-4k-6YO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEQ-9I-3w9">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Ejj-Md-lT3"/>
+                                    <constraint firstAttribute="height" constant="30" id="IWD-Nr-0g9"/>
+                                </constraints>
+                                <state key="normal" title="goto traditional TVC"/>
+                                <connections>
+                                    <action selector="onGotoControllerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uzi-H0-4L8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fm-9X-hyz">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="7CL-wc-UUu"/>
+                                    <constraint firstAttribute="height" constant="30" id="Ylb-QV-bdU"/>
+                                </constraints>
+                                <state key="normal" title="goto smooth TVC"/>
+                                <connections>
+                                    <action selector="onGotoControllerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gwq-Cx-k4e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2o-Q9-gj6">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RHn-9P-YmI"/>
+                                    <constraint firstAttribute="width" constant="200" id="V5p-rJ-mxL"/>
+                                </constraints>
+                                <state key="normal" title="goto extreme TVC"/>
+                                <connections>
+                                    <action selector="onGotoControllerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TaZ-cM-crU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6F-bW-er2">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="C2n-u1-jNd"/>
+                                    <constraint firstAttribute="width" constant="200" id="dCD-PJ-sTQ"/>
+                                </constraints>
+                                <state key="normal" title="goto traditional CVC"/>
+                                <connections>
+                                    <action selector="onGotoControllerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RN1-ua-YaT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOc-cA-QKc">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ZQz-X0-Cpu"/>
+                                    <constraint firstAttribute="height" constant="30" id="mxd-cw-WNr"/>
+                                </constraints>
+                                <state key="normal" title="goto smooth CVC"/>
+                                <connections>
+                                    <action selector="onGotoControllerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LCQ-JU-sOi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdf-np-0dG">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="VIY-ka-Qtn"/>
+                                    <constraint firstAttribute="height" constant="30" id="gq9-P0-l57"/>
+                                </constraints>
+                                <state key="normal" title="goto extreme CVC"/>
+                                <connections>
+                                    <action selector="onGotoControllerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cY3-VG-wbI"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="iG8-wC-6qP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="111" id="P2s-Ju-hEZ"/>
+                            <constraint firstItem="cEQ-9I-3w9" firstAttribute="centerX" secondItem="KQC-6J-SiV" secondAttribute="centerX" id="2mW-Gf-qUR"/>
+                            <constraint firstItem="f2o-Q9-gj6" firstAttribute="top" secondItem="3fm-9X-hyz" secondAttribute="bottom" constant="25" id="Bbv-TT-ips"/>
+                            <constraint firstItem="f2o-Q9-gj6" firstAttribute="centerX" secondItem="3fm-9X-hyz" secondAttribute="centerX" id="KcA-Cu-XQK"/>
+                            <constraint firstItem="iG8-wC-6qP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="66" id="P2s-Ju-hEZ"/>
+                            <constraint firstItem="KQC-6J-SiV" firstAttribute="centerX" secondItem="iG8-wC-6qP" secondAttribute="centerX" id="T42-7b-T88"/>
+                            <constraint firstItem="kdf-np-0dG" firstAttribute="centerX" secondItem="kOc-cA-QKc" secondAttribute="centerX" id="fV5-KD-TUK"/>
+                            <constraint firstItem="cEQ-9I-3w9" firstAttribute="top" secondItem="KQC-6J-SiV" secondAttribute="bottom" constant="25" id="gTJ-gt-FKu"/>
+                            <constraint firstItem="kdf-np-0dG" firstAttribute="top" secondItem="kOc-cA-QKc" secondAttribute="bottom" constant="25" id="irD-Vz-kKm"/>
                             <constraint firstItem="iG8-wC-6qP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oaG-pe-ava"/>
+                            <constraint firstItem="3fm-9X-hyz" firstAttribute="centerX" secondItem="cEQ-9I-3w9" secondAttribute="centerX" id="ors-CT-ko8"/>
+                            <constraint firstItem="kOc-cA-QKc" firstAttribute="top" secondItem="O6F-bW-er2" secondAttribute="bottom" constant="25" id="pbR-Zr-c5S"/>
+                            <constraint firstItem="KQC-6J-SiV" firstAttribute="top" secondItem="iG8-wC-6qP" secondAttribute="bottom" constant="25" id="qSC-1D-aqr"/>
+                            <constraint firstItem="O6F-bW-er2" firstAttribute="centerX" secondItem="f2o-Q9-gj6" secondAttribute="centerX" id="qii-h8-1xF"/>
+                            <constraint firstItem="kOc-cA-QKc" firstAttribute="centerX" secondItem="O6F-bW-er2" secondAttribute="centerX" id="wXr-n5-0Y0"/>
+                            <constraint firstItem="3fm-9X-hyz" firstAttribute="top" secondItem="cEQ-9I-3w9" secondAttribute="bottom" constant="25" id="zgL-Sd-5IG"/>
+                            <constraint firstItem="O6F-bW-er2" firstAttribute="top" secondItem="f2o-Q9-gj6" secondAttribute="bottom" constant="25" id="ziu-oZ-VL4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fvH-Ae-HgZ"/>

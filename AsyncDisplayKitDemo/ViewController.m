@@ -9,6 +9,10 @@
 #import "ViewController.h"
 #import "TraditionalViewController.h"
 #import "SmoothViewController.h"
+#import "TraditionalTableViewController.h"
+#import "SmoothTableViewController.h"
+#import "TraditionalCollectionViewController.h"
+#import "SmoothCollectionViewController.h"
 
 @interface ViewController ()
 
@@ -31,16 +35,59 @@
     [self.navigationController pushViewController:destVC animated:YES];
 }
 
-- (IBAction)onGotoVCButtonTapped:(id)sender {
-    BOOL chooseValue = NO;
-    if (chooseValue) {
-        TraditionalViewController *traditionVC = [[TraditionalViewController alloc] initWithNibName:@"TraditionalViewController" bundle:nil];
-        [self pushToDestVC:traditionVC];
+- (IBAction)onGotoControllerButtonTapped:(id)sender {
+    UIButton *button = (UIButton *)sender;
+    switch (button.tag) {
+        case 0:
+        {
+            TraditionalViewController *traditionVC = [[TraditionalViewController alloc] initWithNibName:@"TraditionalViewController" bundle:nil];
+            [self pushToDestVC:traditionVC];
+        }
+            break;
+        case 1:
+        {
+            SmoothViewController *smoothVC = [[SmoothViewController alloc] initWithNibName:@"SmoothViewController" bundle:nil];
+            [self pushToDestVC:smoothVC];
+        }
+            break;
+        case 2:
+        {
+            TraditionalTableViewController *traditionalTVC = [[TraditionalTableViewController alloc] initWithNibName:@"TraditionalTableViewController" bundle:nil];
+            [self pushToDestVC:traditionalTVC];
+        }
+            break;
+        case 3:
+        {
+            SmoothTableViewController *smoothTVC = [[SmoothTableViewController alloc] initWithNibName:@"SmoothTableViewController" bundle:nil];
+            [self pushToDestVC:smoothTVC];
+        }
+            break;
+        case 4:
+        {
+            
+        }
+            break;
+        case 5:
+        {
+            TraditionalCollectionViewController *traditionalCVC = [[TraditionalCollectionViewController alloc] initWithNibName:@"TraditionalCollectionViewController" bundle:nil];
+            [self pushToDestVC:traditionalCVC];
+        }
+            break;
+        case 6:
+        {
+            SmoothCollectionViewController *smoothCVC = [[SmoothCollectionViewController alloc] initWithNibName:@"SmoothCollectionViewController" bundle:nil];
+            [self pushToDestVC:smoothCVC];
+        }
+            break;
+        case 7:
+        {
+            
+        }
+            break;
+        default:
+            break;
     }
-    else {
-        SmoothViewController *smoothVC = [[SmoothViewController alloc] initWithNibName:@"SmoothViewController" bundle:nil];
-        [self pushToDestVC:smoothVC];
-    }
+    
 }
 
 @end

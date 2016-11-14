@@ -8,6 +8,9 @@
 
 #import "SmoothViewController.h"
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
+#import "Macros.h"
+
+#define BottomViewHeight 320
 
 @interface SmoothViewController ()
 
@@ -29,10 +32,6 @@
 
 @end
 
-#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
-#define BottomViewHeight 320
-
 @implementation SmoothViewController
 
 - (void)viewDidLoad {
@@ -46,6 +45,7 @@
         [self createDisplayContentNodes];
         dispatch_async(dispatch_get_main_queue(), ^{
             // 一旦调用了node的layer或者view属性，以后就都只能在主线程访问了
+            // layer比view更加轻量级，性能更优
             [self.view.layer addSublayer:self.topNode.layer];
             [self.view.layer addSublayer:self.bottomNode.layer];
         });

@@ -5,6 +5,6 @@ platform :ios, '7.0'
 
 target 'AsyncDisplayKitDemo' do
     pod "AsyncDisplayKit"
+    pod "SDWebImage"
     pod 'Reveal-iOS-SDK', :configurations => ['Debug']
-#    , ‘~> 1.9.91’
 end

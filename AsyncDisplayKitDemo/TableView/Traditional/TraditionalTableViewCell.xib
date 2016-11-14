@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="TraditionalTableViewCell" id="KGk-i7-Jjw" customClass="TraditionalTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="375" height="102.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZH5-Hb-Mqw">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="sqE-Yo-Xpc"/>
+                            <constraint firstAttribute="height" constant="72" id="wXp-ao-6OE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金融学" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSG-eD-IEq">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="戴维·L.克利顿(David L. Cleeton)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0y9-6M-ayD">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国人民大学出版社" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdM-3R-fb1">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ce6-Cy-h9X">
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="FYW-Mn-goC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DdM-3R-fb1" firstAttribute="bottom" secondItem="ZH5-Hb-Mqw" secondAttribute="bottom" id="4Yh-LG-C55"/>
+                    <constraint firstItem="ce6-Cy-h9X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8sW-jC-Ir0"/>
+                    <constraint firstItem="0y9-6M-ayD" firstAttribute="centerY" secondItem="ZH5-Hb-Mqw" secondAttribute="centerY" id="Ctu-q4-GvX"/>
+                    <constraint firstItem="0y9-6M-ayD" firstAttribute="leading" secondItem="ZH5-Hb-Mqw" secondAttribute="trailing" constant="16" id="H64-RD-xA4"/>
+                    <constraint firstItem="ZH5-Hb-Mqw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="HVJ-Kf-mr5"/>
+                    <constraint firstAttribute="bottom" secondItem="ce6-Cy-h9X" secondAttribute="bottom" id="LC7-3u-pX9"/>
+                    <constraint firstItem="qSG-eD-IEq" firstAttribute="leading" secondItem="ZH5-Hb-Mqw" secondAttribute="trailing" constant="16" id="O6Q-3n-eXD"/>
+                    <constraint firstItem="ZH5-Hb-Mqw" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="OUk-fC-1uw"/>
+                    <constraint firstAttribute="trailing" secondItem="ce6-Cy-h9X" secondAttribute="trailing" id="b8D-wU-gPK"/>
+                    <constraint firstItem="DdM-3R-fb1" firstAttribute="leading" secondItem="ZH5-Hb-Mqw" secondAttribute="trailing" constant="16" id="fbl-XZ-Dd2"/>
+                    <constraint firstItem="qSG-eD-IEq" firstAttribute="top" secondItem="ZH5-Hb-Mqw" secondAttribute="top" id="iWR-pn-eqI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="authorLabel" destination="0y9-6M-ayD" id="XIQ-pu-HJZ"/>
+                <outlet property="bookImageView" destination="ZH5-Hb-Mqw" id="1Zz-X6-1Ph"/>
+                <outlet property="bottomLineView" destination="ce6-Cy-h9X" id="b4p-Y4-aV7"/>
+                <outlet property="publisherLabel" destination="DdM-3R-fb1" id="khX-X1-rpA"/>
+                <outlet property="titleLabel" destination="qSG-eD-IEq" id="fON-6w-Yeu"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="54"/>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

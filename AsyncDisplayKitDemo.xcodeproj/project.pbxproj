@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		22F33CAC8F27381C948E731B /* libPods-AsyncDisplayKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3A0F0AF41E65954EC82CC /* libPods-AsyncDisplayKitDemo.a */; };
+		2311B7871DD437BE00B39AD5 /* FinancialBookDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311B7861DD437BE00B39AD5 /* FinancialBookDataManager.m */; };
+		2311B78B1DD439D000B39AD5 /* TraditionalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311B7891DD439D000B39AD5 /* TraditionalTableViewController.m */; };
+		2311B78C1DD439D000B39AD5 /* TraditionalTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2311B78A1DD439D000B39AD5 /* TraditionalTableViewController.xib */; };
+		2311B7901DD43A1500B39AD5 /* TraditionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311B78E1DD43A1500B39AD5 /* TraditionalTableViewCell.m */; };
+		2311B7911DD43A1500B39AD5 /* TraditionalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2311B78F1DD43A1500B39AD5 /* TraditionalTableViewCell.xib */; };
+		2311B7951DD43DA700B39AD5 /* TraditionalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311B7931DD43DA700B39AD5 /* TraditionalCollectionViewController.m */; };
+		2311B7961DD43DA700B39AD5 /* TraditionalCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2311B7941DD43DA700B39AD5 /* TraditionalCollectionViewController.xib */; };
+		2311B79A1DD43DC000B39AD5 /* TraditionalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311B7981DD43DC000B39AD5 /* TraditionalCollectionViewCell.m */; };
+		2311B79B1DD43DC000B39AD5 /* TraditionalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2311B7991DD43DC000B39AD5 /* TraditionalCollectionViewCell.xib */; };
+		23778B561DD5D72100048602 /* SmoothTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B541DD5D72100048602 /* SmoothTableViewController.m */; };
+		23778B571DD5D72100048602 /* SmoothTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23778B551DD5D72100048602 /* SmoothTableViewController.xib */; };
+		23778B5B1DD5D73C00048602 /* SmoothCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B591DD5D73C00048602 /* SmoothCollectionViewController.m */; };
+		23778B5C1DD5D73C00048602 /* SmoothCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23778B5A1DD5D73C00048602 /* SmoothCollectionViewController.xib */; };
+		23778B601DD5D79300048602 /* SmoothTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B5E1DD5D79300048602 /* SmoothTableViewCell.m */; };
+		23778B611DD5D79300048602 /* SmoothTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23778B5F1DD5D79300048602 /* SmoothTableViewCell.xib */; };
+		23778B651DD5D7CB00048602 /* SmoothCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B631DD5D7CB00048602 /* SmoothCollectionViewCell.m */; };
+		23778B661DD5D7CB00048602 /* SmoothCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23778B641DD5D7CB00048602 /* SmoothCollectionViewCell.xib */; };
+		23942CD11DD41DD700DDB04C /* FinancialBook.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23942CD01DD41DD700DDB04C /* FinancialBook.plist */; };
+		23942CD41DD41E2D00DDB04C /* FinancialBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23942CD31DD41E2D00DDB04C /* FinancialBookModel.m */; };
 		23D33E381DCC685D003AAB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E371DCC685D003AAB6A /* main.m */; };
 		23D33E3B1DCC685D003AAB6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E3A1DCC685D003AAB6A /* AppDelegate.m */; };
 		23D33E3E1DCC685D003AAB6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E3D1DCC685D003AAB6A /* ViewController.m */; };
@@ -21,9 +40,41 @@
 		23D33E6D1DD2CC00003AAB6A /* SmoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E6B1DD2CC00003AAB6A /* SmoothViewController.xib */; };
 		23D33E701DD2CF40003AAB6A /* TajMahal@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E6E1DD2CF40003AAB6A /* TajMahal@2x.jpg */; };
 		23D33E711DD2CF40003AAB6A /* TajMahal@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23D33E6F1DD2CF40003AAB6A /* TajMahal@3x.jpg */; };
+		23D33E7B1DD338D4003AAB6A /* FamousSceneryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E7A1DD338D4003AAB6A /* FamousSceneryModel.m */; };
+		23D33E7E1DD339DC003AAB6A /* FamousSceneryDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E7D1DD339DC003AAB6A /* FamousSceneryDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2311B7851DD437BE00B39AD5 /* FinancialBookDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinancialBookDataManager.h; sourceTree = "<group>"; };
+		2311B7861DD437BE00B39AD5 /* FinancialBookDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinancialBookDataManager.m; sourceTree = "<group>"; };
+		2311B7881DD439D000B39AD5 /* TraditionalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalTableViewController.h; sourceTree = "<group>"; };
+		2311B7891DD439D000B39AD5 /* TraditionalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalTableViewController.m; sourceTree = "<group>"; };
+		2311B78A1DD439D000B39AD5 /* TraditionalTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraditionalTableViewController.xib; sourceTree = "<group>"; };
+		2311B78D1DD43A1500B39AD5 /* TraditionalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalTableViewCell.h; sourceTree = "<group>"; };
+		2311B78E1DD43A1500B39AD5 /* TraditionalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalTableViewCell.m; sourceTree = "<group>"; };
+		2311B78F1DD43A1500B39AD5 /* TraditionalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraditionalTableViewCell.xib; sourceTree = "<group>"; };
+		2311B7921DD43DA700B39AD5 /* TraditionalCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalCollectionViewController.h; sourceTree = "<group>"; };
+		2311B7931DD43DA700B39AD5 /* TraditionalCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalCollectionViewController.m; sourceTree = "<group>"; };
+		2311B7941DD43DA700B39AD5 /* TraditionalCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraditionalCollectionViewController.xib; sourceTree = "<group>"; };
+		2311B7971DD43DC000B39AD5 /* TraditionalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalCollectionViewCell.h; sourceTree = "<group>"; };
+		2311B7981DD43DC000B39AD5 /* TraditionalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalCollectionViewCell.m; sourceTree = "<group>"; };
+		2311B7991DD43DC000B39AD5 /* TraditionalCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraditionalCollectionViewCell.xib; sourceTree = "<group>"; };
+		23778B411DD5785800048602 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		23778B531DD5D72100048602 /* SmoothTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothTableViewController.h; sourceTree = "<group>"; };
+		23778B541DD5D72100048602 /* SmoothTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothTableViewController.m; sourceTree = "<group>"; };
+		23778B551DD5D72100048602 /* SmoothTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmoothTableViewController.xib; sourceTree = "<group>"; };
+		23778B581DD5D73C00048602 /* SmoothCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothCollectionViewController.h; sourceTree = "<group>"; };
+		23778B591DD5D73C00048602 /* SmoothCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothCollectionViewController.m; sourceTree = "<group>"; };
+		23778B5A1DD5D73C00048602 /* SmoothCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmoothCollectionViewController.xib; sourceTree = "<group>"; };
+		23778B5D1DD5D79300048602 /* SmoothTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothTableViewCell.h; sourceTree = "<group>"; };
+		23778B5E1DD5D79300048602 /* SmoothTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothTableViewCell.m; sourceTree = "<group>"; };
+		23778B5F1DD5D79300048602 /* SmoothTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmoothTableViewCell.xib; sourceTree = "<group>"; };
+		23778B621DD5D7CB00048602 /* SmoothCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothCollectionViewCell.h; sourceTree = "<group>"; };
+		23778B631DD5D7CB00048602 /* SmoothCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothCollectionViewCell.m; sourceTree = "<group>"; };
+		23778B641DD5D7CB00048602 /* SmoothCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmoothCollectionViewCell.xib; sourceTree = "<group>"; };
+		23942CD01DD41DD700DDB04C /* FinancialBook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FinancialBook.plist; sourceTree = "<group>"; };
+		23942CD21DD41E2D00DDB04C /* FinancialBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinancialBookModel.h; sourceTree = "<group>"; };
+		23942CD31DD41E2D00DDB04C /* FinancialBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinancialBookModel.m; sourceTree = "<group>"; };
 		23D33E331DCC685D003AAB6A /* AsyncDisplayKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncDisplayKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D33E371DCC685D003AAB6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23D33E391DCC685D003AAB6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +94,10 @@
 		23D33E6B1DD2CC00003AAB6A /* SmoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmoothViewController.xib; sourceTree = "<group>"; };
 		23D33E6E1DD2CF40003AAB6A /* TajMahal@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TajMahal@2x.jpg"; sourceTree = "<group>"; };
 		23D33E6F1DD2CF40003AAB6A /* TajMahal@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TajMahal@3x.jpg"; sourceTree = "<group>"; };
+		23D33E791DD338D4003AAB6A /* FamousSceneryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamousSceneryModel.h; sourceTree = "<group>"; };
+		23D33E7A1DD338D4003AAB6A /* FamousSceneryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamousSceneryModel.m; sourceTree = "<group>"; };
+		23D33E7C1DD339DC003AAB6A /* FamousSceneryDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamousSceneryDataManager.h; sourceTree = "<group>"; };
+		23D33E7D1DD339DC003AAB6A /* FamousSceneryDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamousSceneryDataManager.m; sourceTree = "<group>"; };
 		8BF1948B71AB8AD019190670 /* Pods-AsyncDisplayKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKitDemo/Pods-AsyncDisplayKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		ACE3A0F0AF41E65954EC82CC /* libPods-AsyncDisplayKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsyncDisplayKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7B985A4BFDC9A2AD52B83F /* Pods-AsyncDisplayKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKitDemo/Pods-AsyncDisplayKitDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +153,8 @@
 				23D33E421DCC685D003AAB6A /* Assets.xcassets */,
 				23D33E441DCC685D003AAB6A /* LaunchScreen.storyboard */,
 				23D33E471DCC685D003AAB6A /* Info.plist */,
+				23778B411DD5785800048602 /* Macros.h */,
+				23D33E781DD337A0003AAB6A /* Model */,
 				23D33E621DD2BFBF003AAB6A /* Resource */,
 				23D33E551DD16A96003AAB6A /* NormalView */,
 				23D33E4D1DD017A3003AAB6A /* TableView */,
@@ -138,6 +195,12 @@
 		23D33E4F1DD08D8B003AAB6A /* Smooth */ = {
 			isa = PBXGroup;
 			children = (
+				23778B531DD5D72100048602 /* SmoothTableViewController.h */,
+				23778B541DD5D72100048602 /* SmoothTableViewController.m */,
+				23778B551DD5D72100048602 /* SmoothTableViewController.xib */,
+				23778B5D1DD5D79300048602 /* SmoothTableViewCell.h */,
+				23778B5E1DD5D79300048602 /* SmoothTableViewCell.m */,
+				23778B5F1DD5D79300048602 /* SmoothTableViewCell.xib */,
 			);
 			path = Smooth;
 			sourceTree = "<group>";
@@ -152,6 +215,12 @@
 		23D33E511DD08D8B003AAB6A /* Traditional */ = {
 			isa = PBXGroup;
 			children = (
+				2311B7881DD439D000B39AD5 /* TraditionalTableViewController.h */,
+				2311B7891DD439D000B39AD5 /* TraditionalTableViewController.m */,
+				2311B78A1DD439D000B39AD5 /* TraditionalTableViewController.xib */,
+				2311B78D1DD43A1500B39AD5 /* TraditionalTableViewCell.h */,
+				2311B78E1DD43A1500B39AD5 /* TraditionalTableViewCell.m */,
+				2311B78F1DD43A1500B39AD5 /* TraditionalTableViewCell.xib */,
 			);
 			path = Traditional;
 			sourceTree = "<group>";
@@ -159,6 +228,12 @@
 		23D33E521DD08D98003AAB6A /* Smooth */ = {
 			isa = PBXGroup;
 			children = (
+				23778B581DD5D73C00048602 /* SmoothCollectionViewController.h */,
+				23778B591DD5D73C00048602 /* SmoothCollectionViewController.m */,
+				23778B5A1DD5D73C00048602 /* SmoothCollectionViewController.xib */,
+				23778B621DD5D7CB00048602 /* SmoothCollectionViewCell.h */,
+				23778B631DD5D7CB00048602 /* SmoothCollectionViewCell.m */,
+				23778B641DD5D7CB00048602 /* SmoothCollectionViewCell.xib */,
 			);
 			path = Smooth;
 			sourceTree = "<group>";
@@ -173,6 +248,12 @@
 		23D33E541DD08D98003AAB6A /* Traditional */ = {
 			isa = PBXGroup;
 			children = (
+				2311B7921DD43DA700B39AD5 /* TraditionalCollectionViewController.h */,
+				2311B7931DD43DA700B39AD5 /* TraditionalCollectionViewController.m */,
+				2311B7941DD43DA700B39AD5 /* TraditionalCollectionViewController.xib */,
+				2311B7971DD43DC000B39AD5 /* TraditionalCollectionViewCell.h */,
+				2311B7981DD43DC000B39AD5 /* TraditionalCollectionViewCell.m */,
+				2311B7991DD43DC000B39AD5 /* TraditionalCollectionViewCell.xib */,
 			);
 			path = Traditional;
 			sourceTree = "<group>";
@@ -211,9 +292,25 @@
 			children = (
 				23D33E6E1DD2CF40003AAB6A /* TajMahal@2x.jpg */,
 				23D33E6F1DD2CF40003AAB6A /* TajMahal@3x.jpg */,
+				23942CD01DD41DD700DDB04C /* FinancialBook.plist */,
 				23D33E631DD2BFBF003AAB6A /* FamousScenery.plist */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		23D33E781DD337A0003AAB6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23942CD21DD41E2D00DDB04C /* FinancialBookModel.h */,
+				23942CD31DD41E2D00DDB04C /* FinancialBookModel.m */,
+				23D33E791DD338D4003AAB6A /* FamousSceneryModel.h */,
+				23D33E7A1DD338D4003AAB6A /* FamousSceneryModel.m */,
+				2311B7851DD437BE00B39AD5 /* FinancialBookDataManager.h */,
+				2311B7861DD437BE00B39AD5 /* FinancialBookDataManager.m */,
+				23D33E7C1DD339DC003AAB6A /* FamousSceneryDataManager.h */,
+				23D33E7D1DD339DC003AAB6A /* FamousSceneryDataManager.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C3E04079F4199C73E828C936 /* Frameworks */ = {
@@ -289,10 +386,19 @@
 				23D33E461DCC685D003AAB6A /* LaunchScreen.storyboard in Resources */,
 				23D33E701DD2CF40003AAB6A /* TajMahal@2x.jpg in Resources */,
 				23D33E6D1DD2CC00003AAB6A /* SmoothViewController.xib in Resources */,
+				2311B79B1DD43DC000B39AD5 /* TraditionalCollectionViewCell.xib in Resources */,
+				2311B78C1DD439D000B39AD5 /* TraditionalTableViewController.xib in Resources */,
+				23778B611DD5D79300048602 /* SmoothTableViewCell.xib in Resources */,
+				23778B5C1DD5D73C00048602 /* SmoothCollectionViewController.xib in Resources */,
+				23778B571DD5D72100048602 /* SmoothTableViewController.xib in Resources */,
 				23D33E711DD2CF40003AAB6A /* TajMahal@3x.jpg in Resources */,
+				2311B7911DD43A1500B39AD5 /* TraditionalTableViewCell.xib in Resources */,
+				23942CD11DD41DD700DDB04C /* FinancialBook.plist in Resources */,
 				23D33E5E1DD2BAF2003AAB6A /* TraditionalViewController.xib in Resources */,
+				23778B661DD5D7CB00048602 /* SmoothCollectionViewCell.xib in Resources */,
 				23D33E661DD2BFBF003AAB6A /* FamousScenery.plist in Resources */,
 				23D33E431DCC685D003AAB6A /* Assets.xcassets in Resources */,
+				2311B7961DD43DA700B39AD5 /* TraditionalCollectionViewController.xib in Resources */,
 				23D33E411DCC685D003AAB6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,10 +458,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23942CD41DD41E2D00DDB04C /* FinancialBookModel.m in Sources */,
+				23778B561DD5D72100048602 /* SmoothTableViewController.m in Sources */,
 				23D33E5D1DD2BAF2003AAB6A /* TraditionalViewController.m in Sources */,
+				23778B5B1DD5D73C00048602 /* SmoothCollectionViewController.m in Sources */,
 				23D33E3E1DCC685D003AAB6A /* ViewController.m in Sources */,
+				2311B7901DD43A1500B39AD5 /* TraditionalTableViewCell.m in Sources */,
+				23D33E7B1DD338D4003AAB6A /* FamousSceneryModel.m in Sources */,
+				2311B7871DD437BE00B39AD5 /* FinancialBookDataManager.m in Sources */,
 				23D33E3B1DCC685D003AAB6A /* AppDelegate.m in Sources */,
 				23D33E381DCC685D003AAB6A /* main.m in Sources */,
+				23778B651DD5D7CB00048602 /* SmoothCollectionViewCell.m in Sources */,
+				23D33E7E1DD339DC003AAB6A /* FamousSceneryDataManager.m in Sources */,
+				2311B79A1DD43DC000B39AD5 /* TraditionalCollectionViewCell.m in Sources */,
+				2311B78B1DD439D000B39AD5 /* TraditionalTableViewController.m in Sources */,
+				23778B601DD5D79300048602 /* SmoothTableViewCell.m in Sources */,
+				2311B7951DD43DA700B39AD5 /* TraditionalCollectionViewController.m in Sources */,
 				23D33E6C1DD2CC00003AAB6A /* SmoothViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
