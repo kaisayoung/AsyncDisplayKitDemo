@@ -10,6 +10,7 @@
 
 /*
  *  应用ASDK做一个tvc，主要是改进cell内容的展示方式
+ *  更加适合于cell高度固定的情况
  */
 
 @interface SmoothTableViewController : UIViewController

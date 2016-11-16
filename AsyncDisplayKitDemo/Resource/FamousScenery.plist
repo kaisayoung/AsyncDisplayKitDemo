@@ -140,5 +140,11 @@
 		<key>name</key>
 		<string>Virginia Falls</string>
 	</dict>
+	<dict>
+		<key>imageURL</key>
+		<string>http://www.nps.gov/common/uploads/photogallery/imr/park/glac/F275052A-155D-451F-67BE9145166C8210/F275052A-155D-451F-67BE9145166C8210-large.jpg</string>
+		<key>name</key>
+		<string>Alpine Meadow</string>
+	</dict>
 </array>
 </plist>

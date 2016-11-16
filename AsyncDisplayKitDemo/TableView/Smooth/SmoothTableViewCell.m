@@ -9,6 +9,7 @@
 #import "SmoothTableViewCell.h"
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 #import "FinancialBookModel.h"
+#import "DownloadManager.h"
 #import "Macros.h"
 
 @interface SmoothTableViewCell ()
@@ -64,7 +65,7 @@
     [operationQueue addOperation:self.constructionOperation];
 }
 
-// 注意这里出现一个一个102.5的硬编码
+// 注意这里出现一个一个103-0.5=102.5的硬编码
 - (NSOperation *)bindDataSourceModel:(id)model {
     
     __weak typeof(self) weakSelf = self;
@@ -78,7 +79,8 @@
         ASTextNode *authorTextNode = [[ASTextNode alloc] init];
         ASTextNode *publisherTextNode = [[ASTextNode alloc] init];
         ASDisplayNode *bottomLineNode = [[ASDisplayNode alloc] init];
-        ASNetworkImageNode *bookImageNode = [[ASNetworkImageNode alloc] init];
+//        ASNetworkImageNode *bookImageNode = [[ASNetworkImageNode alloc] init];
+        ASNetworkImageNode *bookImageNode = [[ASNetworkImageNode alloc] initWithCache:[DownloadManager shareInstance] downloader:[DownloadManager shareInstance]];
         // configure
         containerNode.shouldRasterizeDescendants = YES;
         titleTextNode.attributedText = [[NSAttributedString alloc] initWithString:bookModel.title attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:14], NSForegroundColorAttributeName : [UIColor blackColor]}];

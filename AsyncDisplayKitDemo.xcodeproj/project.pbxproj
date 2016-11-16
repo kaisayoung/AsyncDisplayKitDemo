@@ -17,6 +17,7 @@
 		2311B7961DD43DA700B39AD5 /* TraditionalCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2311B7941DD43DA700B39AD5 /* TraditionalCollectionViewController.xib */; };
 		2311B79A1DD43DC000B39AD5 /* TraditionalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311B7981DD43DC000B39AD5 /* TraditionalCollectionViewCell.m */; };
 		2311B79B1DD43DC000B39AD5 /* TraditionalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2311B7991DD43DC000B39AD5 /* TraditionalCollectionViewCell.xib */; };
+		2319C8311DDC4B5E004E8F5B /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2319C8301DDC4B5E004E8F5B /* DownloadManager.m */; };
 		23778B561DD5D72100048602 /* SmoothTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B541DD5D72100048602 /* SmoothTableViewController.m */; };
 		23778B571DD5D72100048602 /* SmoothTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23778B551DD5D72100048602 /* SmoothTableViewController.xib */; };
 		23778B5B1DD5D73C00048602 /* SmoothCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B591DD5D73C00048602 /* SmoothCollectionViewController.m */; };
@@ -25,6 +26,12 @@
 		23778B611DD5D79300048602 /* SmoothTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23778B5F1DD5D79300048602 /* SmoothTableViewCell.xib */; };
 		23778B651DD5D7CB00048602 /* SmoothCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B631DD5D7CB00048602 /* SmoothCollectionViewCell.m */; };
 		23778B661DD5D7CB00048602 /* SmoothCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23778B641DD5D7CB00048602 /* SmoothCollectionViewCell.xib */; };
+		23778B6A1DD9BD6E00048602 /* ExtremeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B681DD9BD6E00048602 /* ExtremeTableViewController.m */; };
+		23778B6B1DD9BD6E00048602 /* ExtremeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23778B691DD9BD6E00048602 /* ExtremeTableViewController.xib */; };
+		23778B6F1DD9BE7800048602 /* ExtremeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B6D1DD9BE7800048602 /* ExtremeCollectionViewController.m */; };
+		23778B701DD9BE7800048602 /* ExtremeCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23778B6E1DD9BE7800048602 /* ExtremeCollectionViewController.xib */; };
+		23778B731DD9C72C00048602 /* ExtremeTableViewCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B721DD9C72C00048602 /* ExtremeTableViewCellNode.m */; };
+		23778B761DD9C75200048602 /* ExtremeCollectionViewCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 23778B751DD9C75200048602 /* ExtremeCollectionViewCellNode.m */; };
 		23942CD11DD41DD700DDB04C /* FinancialBook.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23942CD01DD41DD700DDB04C /* FinancialBook.plist */; };
 		23942CD41DD41E2D00DDB04C /* FinancialBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23942CD31DD41E2D00DDB04C /* FinancialBookModel.m */; };
 		23D33E381DCC685D003AAB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D33E371DCC685D003AAB6A /* main.m */; };
@@ -59,6 +66,8 @@
 		2311B7971DD43DC000B39AD5 /* TraditionalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalCollectionViewCell.h; sourceTree = "<group>"; };
 		2311B7981DD43DC000B39AD5 /* TraditionalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalCollectionViewCell.m; sourceTree = "<group>"; };
 		2311B7991DD43DC000B39AD5 /* TraditionalCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraditionalCollectionViewCell.xib; sourceTree = "<group>"; };
+		2319C82F1DDC4B5E004E8F5B /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		2319C8301DDC4B5E004E8F5B /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
 		23778B411DD5785800048602 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		23778B531DD5D72100048602 /* SmoothTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothTableViewController.h; sourceTree = "<group>"; };
 		23778B541DD5D72100048602 /* SmoothTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothTableViewController.m; sourceTree = "<group>"; };
@@ -72,6 +81,16 @@
 		23778B621DD5D7CB00048602 /* SmoothCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothCollectionViewCell.h; sourceTree = "<group>"; };
 		23778B631DD5D7CB00048602 /* SmoothCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothCollectionViewCell.m; sourceTree = "<group>"; };
 		23778B641DD5D7CB00048602 /* SmoothCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmoothCollectionViewCell.xib; sourceTree = "<group>"; };
+		23778B671DD9BD6E00048602 /* ExtremeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtremeTableViewController.h; sourceTree = "<group>"; };
+		23778B681DD9BD6E00048602 /* ExtremeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtremeTableViewController.m; sourceTree = "<group>"; };
+		23778B691DD9BD6E00048602 /* ExtremeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtremeTableViewController.xib; sourceTree = "<group>"; };
+		23778B6C1DD9BE7800048602 /* ExtremeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtremeCollectionViewController.h; sourceTree = "<group>"; };
+		23778B6D1DD9BE7800048602 /* ExtremeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtremeCollectionViewController.m; sourceTree = "<group>"; };
+		23778B6E1DD9BE7800048602 /* ExtremeCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtremeCollectionViewController.xib; sourceTree = "<group>"; };
+		23778B711DD9C72C00048602 /* ExtremeTableViewCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtremeTableViewCellNode.h; sourceTree = "<group>"; };
+		23778B721DD9C72C00048602 /* ExtremeTableViewCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtremeTableViewCellNode.m; sourceTree = "<group>"; };
+		23778B741DD9C75200048602 /* ExtremeCollectionViewCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtremeCollectionViewCellNode.h; sourceTree = "<group>"; };
+		23778B751DD9C75200048602 /* ExtremeCollectionViewCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtremeCollectionViewCellNode.m; sourceTree = "<group>"; };
 		23942CD01DD41DD700DDB04C /* FinancialBook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FinancialBook.plist; sourceTree = "<group>"; };
 		23942CD21DD41E2D00DDB04C /* FinancialBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinancialBookModel.h; sourceTree = "<group>"; };
 		23942CD31DD41E2D00DDB04C /* FinancialBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinancialBookModel.m; sourceTree = "<group>"; };
@@ -124,6 +143,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2319C82E1DDC4B4E004E8F5B /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				2319C82F1DDC4B5E004E8F5B /* DownloadManager.h */,
+				2319C8301DDC4B5E004E8F5B /* DownloadManager.m */,
+			);
+			path = DownloadManager;
+			sourceTree = "<group>";
+		};
 		23D33E2A1DCC685D003AAB6A = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +184,7 @@
 				23778B411DD5785800048602 /* Macros.h */,
 				23D33E781DD337A0003AAB6A /* Model */,
 				23D33E621DD2BFBF003AAB6A /* Resource */,
+				2319C82E1DDC4B4E004E8F5B /* DownloadManager */,
 				23D33E551DD16A96003AAB6A /* NormalView */,
 				23D33E4D1DD017A3003AAB6A /* TableView */,
 				23D33E4E1DD017A3003AAB6A /* CollectionView */,
@@ -208,6 +237,11 @@
 		23D33E501DD08D8B003AAB6A /* Extreme */ = {
 			isa = PBXGroup;
 			children = (
+				23778B671DD9BD6E00048602 /* ExtremeTableViewController.h */,
+				23778B681DD9BD6E00048602 /* ExtremeTableViewController.m */,
+				23778B691DD9BD6E00048602 /* ExtremeTableViewController.xib */,
+				23778B711DD9C72C00048602 /* ExtremeTableViewCellNode.h */,
+				23778B721DD9C72C00048602 /* ExtremeTableViewCellNode.m */,
 			);
 			path = Extreme;
 			sourceTree = "<group>";
@@ -241,6 +275,11 @@
 		23D33E531DD08D98003AAB6A /* Extreme */ = {
 			isa = PBXGroup;
 			children = (
+				23778B6C1DD9BE7800048602 /* ExtremeCollectionViewController.h */,
+				23778B6D1DD9BE7800048602 /* ExtremeCollectionViewController.m */,
+				23778B6E1DD9BE7800048602 /* ExtremeCollectionViewController.xib */,
+				23778B741DD9C75200048602 /* ExtremeCollectionViewCellNode.h */,
+				23778B751DD9C75200048602 /* ExtremeCollectionViewCellNode.m */,
 			);
 			path = Extreme;
 			sourceTree = "<group>";
@@ -386,6 +425,7 @@
 				23D33E461DCC685D003AAB6A /* LaunchScreen.storyboard in Resources */,
 				23D33E701DD2CF40003AAB6A /* TajMahal@2x.jpg in Resources */,
 				23D33E6D1DD2CC00003AAB6A /* SmoothViewController.xib in Resources */,
+				23778B701DD9BE7800048602 /* ExtremeCollectionViewController.xib in Resources */,
 				2311B79B1DD43DC000B39AD5 /* TraditionalCollectionViewCell.xib in Resources */,
 				2311B78C1DD439D000B39AD5 /* TraditionalTableViewController.xib in Resources */,
 				23778B611DD5D79300048602 /* SmoothTableViewCell.xib in Resources */,
@@ -395,6 +435,7 @@
 				2311B7911DD43A1500B39AD5 /* TraditionalTableViewCell.xib in Resources */,
 				23942CD11DD41DD700DDB04C /* FinancialBook.plist in Resources */,
 				23D33E5E1DD2BAF2003AAB6A /* TraditionalViewController.xib in Resources */,
+				23778B6B1DD9BD6E00048602 /* ExtremeTableViewController.xib in Resources */,
 				23778B661DD5D7CB00048602 /* SmoothCollectionViewCell.xib in Resources */,
 				23D33E661DD2BFBF003AAB6A /* FamousScenery.plist in Resources */,
 				23D33E431DCC685D003AAB6A /* Assets.xcassets in Resources */,
@@ -461,10 +502,14 @@
 				23942CD41DD41E2D00DDB04C /* FinancialBookModel.m in Sources */,
 				23778B561DD5D72100048602 /* SmoothTableViewController.m in Sources */,
 				23D33E5D1DD2BAF2003AAB6A /* TraditionalViewController.m in Sources */,
+				2319C8311DDC4B5E004E8F5B /* DownloadManager.m in Sources */,
+				23778B761DD9C75200048602 /* ExtremeCollectionViewCellNode.m in Sources */,
 				23778B5B1DD5D73C00048602 /* SmoothCollectionViewController.m in Sources */,
 				23D33E3E1DCC685D003AAB6A /* ViewController.m in Sources */,
 				2311B7901DD43A1500B39AD5 /* TraditionalTableViewCell.m in Sources */,
+				23778B6A1DD9BD6E00048602 /* ExtremeTableViewController.m in Sources */,
 				23D33E7B1DD338D4003AAB6A /* FamousSceneryModel.m in Sources */,
+				23778B6F1DD9BE7800048602 /* ExtremeCollectionViewController.m in Sources */,
 				2311B7871DD437BE00B39AD5 /* FinancialBookDataManager.m in Sources */,
 				23D33E3B1DCC685D003AAB6A /* AppDelegate.m in Sources */,
 				23D33E381DCC685D003AAB6A /* main.m in Sources */,
@@ -472,6 +517,7 @@
 				23D33E7E1DD339DC003AAB6A /* FamousSceneryDataManager.m in Sources */,
 				2311B79A1DD43DC000B39AD5 /* TraditionalCollectionViewCell.m in Sources */,
 				2311B78B1DD439D000B39AD5 /* TraditionalTableViewController.m in Sources */,
+				23778B731DD9C72C00048602 /* ExtremeTableViewCellNode.m in Sources */,
 				23778B601DD5D79300048602 /* SmoothTableViewCell.m in Sources */,
 				2311B7951DD43DA700B39AD5 /* TraditionalCollectionViewController.m in Sources */,
 				23D33E6C1DD2CC00003AAB6A /* SmoothViewController.m in Sources */,

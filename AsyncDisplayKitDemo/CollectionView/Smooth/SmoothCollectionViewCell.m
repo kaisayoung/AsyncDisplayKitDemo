@@ -128,4 +128,8 @@
     [self.activityIndicator stopAnimating];
 }
 
+- (void)imageNode:(ASNetworkImageNode *)imageNode didFailWithError:(NSError *)error {
+    [self.activityIndicator stopAnimating];
+}
+
 @end

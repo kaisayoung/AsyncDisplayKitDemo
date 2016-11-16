@@ -10,6 +10,7 @@
 
 /*
  *  应用ASDK做一个cvc，主要是改进cell内容的展示方式
+ *  更加适合于cell大小固定的情况
  */
 
 @interface SmoothCollectionViewController : UIViewController

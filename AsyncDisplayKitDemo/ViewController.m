@@ -11,8 +11,10 @@
 #import "SmoothViewController.h"
 #import "TraditionalTableViewController.h"
 #import "SmoothTableViewController.h"
+#import "ExtremeTableViewController.h"
 #import "TraditionalCollectionViewController.h"
 #import "SmoothCollectionViewController.h"
+#import "ExtremeCollectionViewController.h"
 
 @interface ViewController ()
 
@@ -25,7 +27,6 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -35,6 +36,7 @@
     [self.navigationController pushViewController:destVC animated:YES];
 }
 
+// 注意模拟器感受不出来差别
 - (IBAction)onGotoControllerButtonTapped:(id)sender {
     UIButton *button = (UIButton *)sender;
     switch (button.tag) {
@@ -64,7 +66,8 @@
             break;
         case 4:
         {
-            
+            ExtremeTableViewController *extremeTVC = [[ExtremeTableViewController alloc] init];
+            [self pushToDestVC:extremeTVC];
         }
             break;
         case 5:
@@ -81,7 +84,8 @@
             break;
         case 7:
         {
-            
+            ExtremeCollectionViewController *extremeCVC = [[ExtremeCollectionViewController alloc] init];
+            [self pushToDestVC:extremeCVC];
         }
             break;
         default:
