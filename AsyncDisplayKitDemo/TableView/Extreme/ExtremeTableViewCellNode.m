@@ -73,6 +73,19 @@
 
 #pragma mark - override 
 
+// 这三个方法任意覆写其一就可以；或者给layoutSpecBlock属性赋值
+
+// spec布局，官方推荐？
+//- (ASLayoutSpec *)layoutSpecThatFits:(ASSizeRange)constrainedSize {
+//    return nil;
+//}
+
+// 混合布局
+//- (ASLayout *)calculateLayoutThatFits:(ASSizeRange)constrainedSize {
+//    return nil;
+//}
+
+// 手动布局，一般情况下不使用？
 // 注意这里已经不需要SCREEN_WIDTH这种硬编码了，更加灵活
 - (CGSize)calculateSizeThatFits:(CGSize)constrainedSize {
     

@@ -14,6 +14,7 @@
 
 @interface ExtremeTableViewController ()<ASTableDataSource,ASTableDelegate>
 
+// *  还可以试试ASTableNode
 @property (nonatomic, strong) ASTableView *tableView;
 
 @end
